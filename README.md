@@ -56,5 +56,5 @@ I want to continue using Tailwind and Next.js to master them both.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Refer59)
+- Frontend Mentor - [@Refer59](https://www.frontendmentor.io/profile/Refer59)
 
