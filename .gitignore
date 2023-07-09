@@ -33,3 +33,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/Results summary component
+/src/app/*
+/src/components
+!/src/app/results-summary
+
+.vercel
