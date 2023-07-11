@@ -37,6 +37,7 @@ next-env.d.ts
 /Results summary component
 /src/app/*
 /src/components
-!/src/app/results-summary
+/src/app/results-summary
+!/src/app/age-calculator
 
 .vercel

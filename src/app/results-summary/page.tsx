@@ -1,5 +1,4 @@
 import { ReactNode, useCallback } from "react"
-import data from "../../../Results summary component/data.json"
 import ReactionIcon from "@/assets/images/icon-reaction.svg"
 import MemoryIcon from "@/assets/images/icon-memory.svg"
 import VerbalIcon from "@/assets/images/icon-verbal.svg"
@@ -48,9 +47,32 @@ function getAverageResult(data: categoryType[]){
 }
 
 const ResultSummary = () => {
+    const data = [
+        {
+          "category": "Reaction",
+          "score": 80,
+          "icon": "./assets/images/icon-reaction.svg"
+        },
+        {
+          "category": "Memory",
+          "score": 92,
+          "icon": "./assets/images/icon-memory.svg"
+        },
+        {
+          "category": "Verbal",
+          "score": 61,
+          "icon": "./assets/images/icon-verbal.svg"
+        },
+        {
+          "category": "Visual",
+          "score": 72,
+          "icon": "./assets/images/icon-visual.svg"
+        }
+    ]
+      
     return(
         <div id='page-container' className='lg:flex lg:items-center lg:justify-center'>
-            <div className='w-full flex font-hanken-grotesk flex-col overflow-hidden sm:px-[5vw] lg:flex-row lg:bg-white lg:rounded-3xl lg:drop-shadow-2xl lg:w-[600px]'>
+            <div className='w-full flex font-hanken-grotesk flex-col overflow-hidden sm:px-[5vw] lg:px-0 lg:flex-row lg:bg-white lg:rounded-3xl lg:drop-shadow-2xl lg:w-[600px]'>
                 <div className='min-w-full flex flex-col items-center rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue text-center
                                 px-4 pt-4 pb-8 text-white lg:justify-around lg:rounded-3xl lg:min-w-half'>
                     <h4 className='text-white/60 text-[1.1rem] mb-5'>Your result</h4>

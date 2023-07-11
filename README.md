@@ -1,6 +1,6 @@
-# Frontend Mentor - Results summary component solution
+# Frontend Mentor - Age calculator component solution
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Age calculator component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,6 +24,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the interface for mobile and desktop screens.
+- Put their date of birth to get their age on years, months and days
 
 ### Screenshot
 
@@ -31,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://nextjs-tailwind-sage.vercel.app/results-summary)
+- Live Site URL: [Add live site URL here](https://nextjs-tailwind-sage.vercel.app/age-calculator)
 
 ## My process
 
@@ -48,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-How to use Tailwind and Next.js together to get an optimal result.
+Improved coding validations
 
 ### Continued development
 

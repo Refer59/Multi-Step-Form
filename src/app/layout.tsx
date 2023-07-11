@@ -1,12 +1,19 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import Navigation from '@/components/Navigation/Navigation' // @ denota una ruta absoluta por lo cual empieza a buscar desde la ruta raiz
-import { Hanken_Grotesk } from 'next/font/google'
+import { Hanken_Grotesk, Poppins } from 'next/font/google'
 
 const hankenGrotesk = Hanken_Grotesk({ 
   subsets: ['latin'], 
   variable: '--font-hanken-grotesk',
   weight: ['500', '700', '800'] 
+})
+
+const poppins = Poppins({ 
+  variable: '--font-poppins',
+  subsets: ['latin'], 
+  style: ['normal', 'italic'],
+  weight: ['400', '700', '800'] 
 })
 
 export const metadata: Metadata = {
@@ -18,7 +25,7 @@ export const metadata: Metadata = {
 //Layout es el contenedor de todas las paginas
 const RootLayout = ({children}: { children: React.ReactNode}) => {
   return (
-    <html lang="en" className={`${hankenGrotesk.variable}`}>
+    <html lang="en" className={`${hankenGrotesk.variable} ${poppins.variable}`}>
       <body>
         {/* <Navigation /> */}
         {children}

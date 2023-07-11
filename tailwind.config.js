@@ -9,11 +9,22 @@ module.exports = {
   theme: {
     extend: {
       minWidth: {
-        half: '50%'
+        half: '50%',
+        '8': '4rem',
+        '1/5': '20%'
       },
 
       fontFamily: {
         'hanken-grotesk': ['var(--font-hanken-grotesk)'],
+        'poppins': ['var(--font-poppins)'],
+      },
+
+      fontSize: {
+        '5.5': ['3.5rem', {
+          lineHeight: '4rem',
+          letterSpacing: '-0.15rem'
+        }
+        ]
       },
 
       colors: {
@@ -37,13 +48,26 @@ module.exports = {
         'light-royal-blue': 'hsl(241, 81%, 54%)',
         'violet-blue': 'hsla(256, 72%, 46%, 1)',
         'persian-blue': 'hsla(241, 72%, 46%, 0)',
-        'dark-gray-blue': 'hsl(224, 30%, 27%)'
+        'dark-gray-blue': 'hsl(224, 30%, 27%)',
+
+        // age-calcultaor
+        'purple': 'hsl(259, 100%, 65%)',
+        'deep-gray-purple': '#543c89',
+        'light-red': 'hsl(0, 100%, 67%)',
+
+        'off-white': 'hsl(0, 0%, 94%)',
+        'light-grey': 'hsl(0, 0%, 86%)',
+        'smokey-grey': 'hsl(0, 1%, 44%)',
+        'off-lack': 'hsl(0, 0%, 8%)',
+        'shadow-black': 'rgba(0, 0, 0, 0.25)'
       },
+
+      screens: {
+        'xsm': { 'min': '320px', 'max': '640px' },
+        'sm': '640px',
+        'lg': '1024px'
+      }
     },
-    screens: {
-      sm: { 'min': '640px', 'max': '1024px' },
-      lg: '1024px'
-    }
   },
   plugins: [],
 }
