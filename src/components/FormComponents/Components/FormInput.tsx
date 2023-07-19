@@ -144,7 +144,13 @@ const CountryList = ({ enable, setEnable, changeHandler, autoSearch }: { enable?
 
     useEffect(() => {
         (async()=> {
-            const result = await fetch('https://restcountries.com/v3.1/all?fields=name,idd,flags,cca2')
+            const result = await fetch('https://restcountries.com/v3.1/all?fields=name,idd,flags,cca2', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            console.log('API Response: ' + result.status)
             const json: { [key:string]: any }[] = await result.json()
             const sorted = json.sort((c1, c2) => c1.name.common.toLowerCase().localeCompare(c2.name.common.toLowerCase()))
 

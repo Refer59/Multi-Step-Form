@@ -42,7 +42,7 @@ const MultiStepForm = ({ Forms, continueState, goToForm, disableControls, setGoT
 
     return(
         <main className='h-full w-full min-w-375 flex flex-col lg:flex-row lg:p-4 lg:bg-white lg:max-w-5xl lg:max-h-[660px]
-                         lg:rounded-2xl font-ubuntu sm-lg:overflow-hidden'>
+                         lg:rounded-2xl font-ubuntu sm-lg:overflow-hidden shadow-2xl'>
             <section className='w-full h-40 max-h-40 p-4 lg:p-8 lg:h-full lg:max-w-[30%] lg:max-h-full lg:rounded-inherit
                                 [background-position-y:max(504px,calc(136vw+57%))] lg:[background-position-y:initial]
                                 bg-multiStep-bg-mobile lg:bg-multiStep-bg-desktop bg-cover font-medium'>

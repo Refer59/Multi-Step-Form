@@ -25,14 +25,14 @@ In order to work with this component, the Form must have a HTML form. so once th
 
 Users should be able to:
 
-🆗 View the optimal layout for the interface for mobile and desktop screens.
-🆗 Complete each step of the sequence
-🆗 Go back to a previous step to update their selections
-🆗 See a summary of their selections on the final step and confirm their order
-🆗 See hover and focus states for all interactive elements on the page
-🆗 See Form transition animations
-🆗 Receive form validation messages if a field is wrong or missing
-🆗 Select their country code from a modal list for phone numbers
+🆗 - View the optimal layout for the interface for mobile and desktop screens.
+🆗 - Complete each step of the sequence
+🆗 - Go back to a previous step to update their selections
+🆗 - See a summary of their selections on the final step and confirm their order
+🆗 - See hover and focus states for all interactive elements on the page
+🆗 - See Form transition animations
+🆗 - Receive form validation messages if a field is wrong or missing
+🆗 - Select their country code from a modal list for phone numbers
 
 ### Screenshot
 

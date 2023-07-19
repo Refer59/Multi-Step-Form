@@ -63,7 +63,7 @@ const MultiStepPage = () => {
     ]
     
     return(
-        <div id='page-container' className='h-full bg-slate-200 flex justify-center items-center'>
+        <div id='page-container' className='h-full bg-magnolia flex justify-center items-center'>
             <MultiStepForm Forms={Forms} continueState={[canContinue, setCanContinue]} goToForm={orderedForm} setGoToForm={setGoToForm} disableControls={controls}/>
         </div>
     )
