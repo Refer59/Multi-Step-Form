@@ -34,10 +34,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/Results summary component
 /src/app/*
-/src/components
-/src/app/results-summary
-!/src/app/age-calculator
+!/src/app/multi-step-form
+
+/src/components/*
+!/src/components/FormComponents
 
 .vercel

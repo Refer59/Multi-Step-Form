@@ -5,7 +5,7 @@ async function fetchFunction(): Promise<object[]>{
   const data = await res.json()
   return data.data
 }
-
+ 
 //Esto es un react server component
 const Home = async () => { 
   const users = await fetchFunction()
